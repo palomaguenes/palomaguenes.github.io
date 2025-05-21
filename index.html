@@ -2,56 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Paloma Guenes</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      margin: 0;
-      padding: 2rem;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: #f9f9f9;
-    }
-    h1 {
-      color: #333;
-    }
-    a {
-      color: #1a0dab;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .contact {
-      margin-top: 2rem;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
 </head>
 <body>
-  <h1>Paloma Guenes</h1>
-  <p>PhD Candidate in Informatics - Software Engineering at PUC-Rio. Research in human aspects of software engineering, focusing on the Impostor Phenomenon in professionals.</p>
+  <div class="sidebar">
+    
+    <div class="profile">
+      <img src="./paloma-foto.png" alt="Paloma Guenes" class="profile-pic"/>
+      <!-- <h2>Paloma Guenes</h2> -->
+    </div>
 
-  <h2>Publications</h2>
-  <ol>
-    <li>
-      P. Guenes, R. Tomaz, M. Kalinowski, M. T. Baldassarre and M.-A. Storey, <em>"Impostor Phenomenon in Software Engineers,"</em> 2024 IEEE/ACM 46th International Conference on Software Engineering: Software Engineering in Society (ICSE-SEIS), Lisbon, Portugal, 2024, pp. 96–106. <br/>
-      DOI: <a href="https://dl.acm.org/doi/10.1145/3639475.3640114" target="_blank">10.1145/3639475.3640114</a><br/>
-      Preprint: <a href="https://arxiv.org/pdf/2312.03966" target="_blank">arXiv:2312.03966</a>
-    </li>
-    <li>
-      P. Guenes, R. Tomaz, B. Trinkenreich, M. T. Baldassarre, M.-A. Storey, and M. Kalinowski, <em>“Impostor Phenomenon Among Software Engineers: Investigating Gender Differences and Well-Being,”</em> in Proc. 2025 IEEE/ACM Graduate Experiences in ICSE (GEICSE), 2025, pp. 33–40. <br/>
-      DOI: <a href="https://doi.org/10.1109/GEICSE66911.2025.00009" target="_blank">10.1109/GEICSE66911.2025.00009</a><br/>
-      Preprint: <a href="https://arxiv.org/pdf/2502.07914" target="_blank">arXiv:2502.07914</a>
-    </li>
-  </ol>
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>Email: pguenes@inf.puc-rio.br</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/palomaguenes" target="_blank">palomaguenes</a><br/>
+      <!-- <p>Lattes: <a href="http://lattes.cnpq.br/7326010081436715" target="_blank">http://lattes.cnpq.br/7326010081436715</a></p> -->
+    </div>
+    <!-- <nav>
+      <ul>
+        <li><i class="fas fa-home"></i> Home</li>
+        <li><i class="fas fa-file-alt"></i> Publications</li>
+        <li><i class="fas fa-award"></i> Awards</li>
+      </ul>
+    </nav> -->
+    <div class="social">
+      <div class="logo">
+        <img src="logo-puc.png" alt="PUC-Rio Logo" />
+      </div>
+      <!-- <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a> -->
+    </div>
+  </div>
 
-  <div class="contact">
-    <h2>Contact</h2>
-    Email: pguenes@inf.puc-rio.br
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/palomaguenes" target="_blank">palomaguenes</a><br/>
-    Lattes: <a href="http://lattes.cnpq.br/7326010081436715" target="_blank">http://lattes.cnpq.br/7326010081436715</a></p>
+  <div class="main-content">
+    <h1>Paloma Guenes </h1>
+    <p>PhD Candidate in Informatics - Software Engineering at PUC-Rio. Research in human aspects of software engineering, focusing on the Impostor Phenomenon in professionals.</p>
+
+
+
+    <h2>Publications</h2>
+
+    <div class="publications">
+      <div class="pub-card">
+        <div class="pub-text">
+          <p><b>Impostor Phenomenon in Software Engineers</b></p>
+          P. Guenes, R. Tomaz, M. Kalinowski, M. T. Baldassarre and M.-A. Storey, 
+          <em>"Impostor Phenomenon in Software Engineers"</em> 2024 IEEE/ACM 46th International Conference on Software Engineering: Software Engineering in Society (ICSE-SEIS), Lisbon, Portugal, 2024, pp. 96–106. <br/>
+          DOI: <a href="https://dl.acm.org/doi/10.1145/3639475.3640114" target="_blank">10.1145/3639475.3640114</a><br/>
+          Preprint: <a href="https://arxiv.org/pdf/2312.03966" target="_blank">arXiv:2312.03966</a>
+        </div>
+        <div class="pub-logo">
+          <img src="icse-2024-logo.png" alt="ICSE Logo">
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-text">
+          <p><b>Impostor Phenomenon Among Software Engineers: Investigating Gender Differences and Well-Being</b></p>
+          P. Guenes, R. Tomaz, B. Trinkenreich, M. T. Baldassarre, M.-A. Storey, and M. Kalinowski, 
+          <em>“Impostor Phenomenon Among Software Engineers: Investigating Gender Differences and Well-Being”</em> in Proc. 2025 IEEE/ACM Graduate Experiences in ICSE (GEICSE), 2025, pp. 33–40. <br/>
+          DOI: <a href="https://doi.org/10.1109/GEICSE66911.2025.00009" target="_blank">10.1109/GEICSE66911.2025.00009</a><br/>
+          Preprint: <a href="https://arxiv.org/pdf/2502.07914" target="_blank">arXiv:2502.07914</a>
+        </div>
+        <div class="pub-logo">
+          <img src="icse-2025-logo.png" alt="GEICSE Logo">
+        </div>
+      </div>
+    </div>
+
+
+
+    <h2>Awards</h2>
+
+    <div class="awards row">
+      <div class="award-card">
+        <div class="award-text">
+          <p><b>Top 3 Master's Dissertation in Brazil</b></p>
+          Awarded third place for the best Master's dissertation in Software Engineering Brazil. CBSoft 2024.
+
+        </div>
+        <div class="award-logo">
+          <img src="capivara.png" alt="ICSE Logo">
+        </div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-text">
+          <p><b>Honorable mention</b></p>
+          Honorable mention in the thesis and dissertation competition held by the Center for Science and Technology (CTC), Pontifical Catholic University of Rio de Janeiro (PUC-Rio).
+
+
+        </div>
+        <!-- <div class="award-logo">
+          <img src="capivara.png" alt="ICSE Logo">
+        </div> -->
+      </div>
+
+    </div>
+
+
+
+
+   
   </div>
 </body>
 </html>
+

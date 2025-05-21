@@ -1,0 +1,169 @@
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        background-color: #f9f9f9;
+    }
+    
+    .sidebar {
+        width: 350px;
+        background-color: #070040;
+        color: white;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+
+    .sidebar div {
+        margin: 20px;
+    }
+    
+    .logo img {
+        width: 180px;
+        margin: 0 auto 10px;
+        display: block;
+    }
+    
+    .profile {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .profile-pic {
+        width: 200px;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+        margin-bottom: 10px;
+    }
+    
+    .profile h2 {
+        font-size: 18px;
+        margin: 0;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    nav ul li i {
+        margin-right: 10px;
+    }
+    
+    nav ul li:hover {
+        background-color: #333;
+    }
+    
+    .social {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .social a {
+        color: white;
+        margin: 0 8px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+    .main-content {
+        padding: 30px;
+        flex-grow: 1;
+    }
+    
+    a{
+        color: #0d3ba6;
+    }
+
+    .container {
+        position: relative;
+        min-height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .corner-image {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 280px; 
+        height: auto;
+        z-index: 10;
+        opacity: 0.4;
+    }
+
+    .publications {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+      
+    .pub-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+    }
+    
+    .pub-text {
+    flex: 1;
+    margin-right: 20px;
+    }
+    
+    .pub-logo img {
+        width: 150px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .awards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+      
+    .award-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #d0bc25;
+        border-radius: 10px;
+        padding: 16px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        background-color: #fff;
+    }
+    
+    .award-text {
+        flex: 1;
+        margin-right: 20px;
+    }
+    
+    .award-logo img {
+        width: 150px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .award-logo img {
+        width: 100px;
+        height: auto;
+        object-fit: contain;
+    }
+    
+    .contact {
+        margin: 10px;
+        text-align: center;
+    }
